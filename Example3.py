@@ -10,5 +10,5 @@ def person():
         print("\n name : ",name ,"\n weight : ",weight, "\n birthdate : ",birth_date)
 
 def main():
-    person()
+    person() # void function
 main()
