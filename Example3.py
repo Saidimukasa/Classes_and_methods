@@ -9,5 +9,5 @@ def person():
     else:
         print("\n name : ",name ,"\n weight : ",weight, "\n birthdate : ", birth_date)
 def main():
-    person() # void function
+    person() # void function that takes in no parameters
 main()
