@@ -1,7 +1,7 @@
 def person():
     name = input("Enter the name : ") #allows a user to enter the name
     weight = float(input("Enter the weight : "))
-    birth_date = 2002 
+    birth_date = 2002 # taking all users to have the same birthdate
     age = 2022-birth_date 
     if name == "":
         print("\n name : name" ,"\n weight : ",weight, "\n birthdate : ",birth_date)
