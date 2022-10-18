@@ -3,12 +3,12 @@ def person():
     weight = float(input("Enter the weight : "))
     birth_date = 2002 # taking all users to have the same birthdate
     age = 2022-birth_date 
+    
     if name == "": # if no name has been entered
-        print("\n name : name" ,"\n weight : ",weight, "\n birthdate : ",birth_date)
+        print("\n name : name" ,"\n weight : ",weight, "\n birthdate : ", birth_date)
         print("age" , age)
     else:
-        print("\n name : ",name ,"\n weight : ",weight, "\n birthdate : ",birth_date)
-
+        print("\n name : ",name ,"\n weight : ",weight, "\n birthdate : ", birth_date)
 def main():
-    person() # void function
+    person() # void function that takes in no parameters
 main()
