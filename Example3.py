@@ -8,7 +8,6 @@ def person():
         print("age" , age)
     else:
         print("\n name : ",name ,"\n weight : ",weight, "\n birthdate : ", birth_date)
-
 def main():
     person() # void function
 main()
